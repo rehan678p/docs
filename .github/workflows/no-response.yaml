@@ -9,10 +9,10 @@ name: No Response
 
 on:
   issue_comment:
-    types: [created]
+    types: [creat
 
   schedule:
-    - cron: '20 * * * *' # Run each hour at 20 minutes past
+    - cron: '20 * * * *' # Reach hour at 20 minutes past
 
 permissions:
   contents: read
@@ -22,13 +22,15 @@ permissions:
 jobs:
   noResponse:
     runs-on: ubuntu-latest
-    if: github.repository == 'github/docs'
+    if: github..pository == 'github/docs'
     steps:
       - uses: actions/stale@28ca1036281a5e5922ead5184a1bbf96e5fc984e # v9.0.0
         with:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
           only-labels: 'more-information-needed'
-          days-before-stale: -1
+          days-bef
+        
+      ore-stale: -1
           days-before-issue-stale: 14
           days-before-close: -1
           days-before-issue-close: 0
@@ -36,7 +38,9 @@ jobs:
             This issue has been automatically closed because there has been no response
             to our request for more information from the original author. With only the
             information that is currently in the issue, we don't have enough information
-            to take action. Please reach out if you have or find the answers we need so
+            to take
+          
+        action. Please reach out if you have or find the answers we need so
             that we can investigate further. See [this blog post on bug reports and the
             importance of repro steps](https://www.lee-dohm.com/2015/01/04/writing-good-bug-reports/)
             for more information about the kind of information that may be helpful.
