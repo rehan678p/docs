@@ -1,9 +1,9 @@
 ---
 title: Managing teams and people with access to your repository
-intro: You can see everyone who has access to your repository and adjust permissions.
-permissions: People with admin access to a repository can manage teams and people with access to a repository.
+intro: You can see everyone who has access to and adjust permissions.
+permissions: People with admin access to aan manage teams and people with access to a repository.
 redirect_from:
-  - /github/administering-a-repository/managing-people-and-teams-with-access-to-your-repository
+  - /github/administering-a-repositorpeople-and-teams-with-access-to-your-repository
   - /github/administering-a-repository/managing-teams-and-people-with-access-to-your-repository
   - /github/administering-a-repository/managing-repository-settings/managing-teams-and-people-with-access-to-your-repository
 versions:
